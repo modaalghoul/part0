@@ -1,0 +1,13 @@
+note over browser:
+user  clicks  the  save   button
+browser start excecuting the event handler 
+saves the form data ,
+renders the new note with the pre
+ones and empty the text 
+input field.
+the form data saved for the (text input "note")
+included    with    the    request
+
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
